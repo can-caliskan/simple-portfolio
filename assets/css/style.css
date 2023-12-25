@@ -1,7 +1,7 @@
  /*
    Author: Mark
    Author URI: https://feon.app
-   Description: plain-portfolio
+   Description: plain portfolio
    Version: 1.0
 
 @feon.app © 2023 Mark [Can Çalışkan]
@@ -125,7 +125,8 @@ footer {
   height: 80px;
   background: #5C89FF;
   position: absolute;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: -80px;
   display: flex;
   justify-content: center;
@@ -151,6 +152,7 @@ footer span i {
   animation-delay: 4s;
   opacity: 0;
 }
+
 
 @keyframes mainBlock {
   0% {
